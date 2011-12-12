@@ -1,0 +1,451 @@
+/* @override 
+	http://localhost/~james/grocer/style.css */
+
+body {
+	color: #434343;
+	font: 14px arial;
+	background-color: #b5e196;
+	text-align: center;
+	padding: 20px 0 0;
+	margin: 0;
+	height: 550px;
+}
+
+.item {
+	text-align: left;
+	font-weight: bold;
+	padding: 10px;
+	color: #418813;
+	background-color: #e6f6d3;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	font-size: 16px;
+	margin: 10px 20px 10px 40px;
+}
+
+.item #checkDiv {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: #d3f0bc;
+	border-radius: 5px;
+	padding: 5px;
+}
+.item #name {
+	display: inline-block;
+	width: 50%;
+}
+.item #delete {
+	display: inline-block;
+}
+
+#itemDetail, #left {
+	border-style: none;
+	height: 140%;
+	float: left;
+	width: 50%;
+	background-color: #d1efbc;
+}
+
+#itemDetail {
+	background-color: #bdeda1;
+}
+
+#itemDetail div {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#itemDetail #name, #itemDetail #points{
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #e5fec0;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #5ea200;
+	margin: 0;
+}
+
+#itemDetail #details, #nutrition {
+	text-align: left;
+	padding: 10px 40px;
+	background-color: #ebffe3;
+	color: #4b740b;
+	font-size: 14px;
+}
+
+#itemDetail #edit #name, #itemDetail #edit #points {
+	width: 45%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#itemDetail #edit #details{
+	width: 100%;
+	height: 400px;
+}
+
+#itemDetail #editbutton, #savebutton{
+	display: inline-block;
+	background-color: #a0e676;
+	padding: 10px 25px;
+	font-size: 20px;
+	border-radius: 10px;
+	color: #26630b;
+}
+
+#buyButton, #trophiesButton, #battleButton {
+	background-color: #9bd67c;
+	color: #48961f;
+	font-weight: bold;
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+	padding: 25px;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#headerContainer{
+	height: 5%;
+	margin-bottom: 20px;
+}
+
+#header div{
+	width: 80px;
+	height: 100%;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #159f15;
+}
+
+#header #homebutton{
+	text-align: right;
+}
+
+#header #plusbutton{
+	text-align: left;
+}
+
+#header #title{
+	font-size: 25px;
+	width: 200px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 40px;
+	margin: 0;
+	color: #194c00;
+	height: 13%;
+}
+
+#main {
+	text-align: center;
+	padding: 0;
+	width: 100%;
+	background-color: #bdeda1;
+	color: #29551b;
+}
+
+input, textarea {
+	border: 1px solid #59aa00;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: #d1efbc;
+}
+
+#addForm {
+	background-color: #c2efa2;
+	padding: 20px 20px 20px 50px;
+	text-align: left;
+}
+
+#addForm input{
+	height: 40px;
+	width: 180px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+#addItemButton, #purchaseButton {
+	background-color: #9ee773;
+	padding: 8px 15px;
+	border-radius: 10px;
+	margin-right: 3px;
+	margin-left: 3px;
+	font-weight: bold;
+}
+
+#score, #rank {
+	margin-top: 25px;
+	font-size: 35px;
+	font-weight: bold;
+	background-color: #effcca;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #25800f;
+	margin-bottom: 25px;
+}
+
+.gridEl {
+	display: inline-block;
+	background-color: #ccf2aa;
+	margin: 10px;
+	padding: 20px;
+	border: 5px solid #95c97c;
+}
+.trophy {
+	height:  100px;
+	width: 100px;
+}
+#facebook {
+	font-size: 20px;
+	background-color: #b3d7f5;
+	color: #0675d4;
+	display: inline-block;
+	padding: 5px 10px;
+	position: relative;
+	bottom: 5px;
+	margin-left: 10px;
+}
+
+.front{
+	width: 40%;
+	display: inline-block;
+	float: top;
+}
+
+.front img {
+	position: relative;
+	top: 30px;
+	border: 5px solid #44770b;
+}
+
+.friend div {
+	display: inline-block;
+}
+
+#friendTrophies img {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 5px;
+}
+
+#friends {
+	text-align: left;
+	padding-left: 15%;
+}
+
+#friendsHeader {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.friend {
+	background-color: #d2f7be;
+	display: inline-block;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+}
+
+#friendName {
+	margin-right: 100px;
+	position: relative;
+	top: -3px;
+	font-weight: bold;
+	color: #396404;
+	font-size: 20px;
+}
+
+#friendRank, #friendScore {
+	position: relative;
+	top: -3px;
+	font-weight: bold;
+	color: #396404;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: #affe74;
+	padding: 5px 10px;
+}
+
+#nutrition div {
+	background-color: #e4ffa2;
+	padding: 5px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+#nutrition img, #bartext img {
+	width: 16px;
+	hgith: 10px;
+	height: 16px;
+	margin-right: 3px;
+	position: relative;
+	top: 3px;
+}
+
+#chooseText {
+	width: 600px;
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 80px;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 50px;
+	display: inline-block;
+}
+
+#vs {
+	background-image: url(res/vs.png);
+	position: absolute;
+	left: 40%;
+	top: 60%;
+}
+
+#choose {
+	background-color: #f5faad;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 250px;
+	overflow: auto;
+}
+
+#op {
+	text-align: left;
+	font-weight: bold;
+	font-size: 18px;
+	display: inline-block;
+	margin: 10px;
+	width: 89%;
+	padding: 10px 20px;
+	background-color: #a6ff45;
+	color: #238a01;
+}
+
+#op div {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+}
+
+#leftPerson {
+	text-align: left;
+}
+#vs {
+	float: left;
+	
+}
+#leftPerson, #rightPerson {
+	width: 39%;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+#rightPerson {
+	text-align: right;
+}
+#battletext {
+	font-size: 40px;
+	padding: 20px;
+	font-weight: bold;
+}
+#batName {
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #e5fb64;
+	width: 200px;
+	display: inline-block;
+	padding: 5px 30px;
+}
+#batAvatar img{
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 3px solid #ffffff;
+}
+#batStats {
+	margin-bottom: 50px;
+}
+#batStats #stat{
+	font-weight: bold;
+	background-color: #effb9b;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	display: inline-block;
+	padding: 5px 10px;
+}
+#barText {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.bar {
+	display: inline-block;
+	height: 10px;
+	background-color: #50f901;
+	width: 50px;
+}
+
+#youwon {
+	background-color: #f5fea3;
+	display: inline-block;
+	padding: 10px 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#winnerpic {
+	border-style: solid;
+	margin-bottom: 50px;
+	float: left;;
+	border-color: #daf6cb;
+}
+
+#scoreblock {
+	float: left;
+	font-weight: bold;
+	font-size: 30px;
+	background-color: #f5fea3;
+	margin-top: 50px;
+	margin-left: 30px;
+	padding: 20px;
+}
+
+#scoreblock div {
+	display: inline-block;
+}
+
+#piccontainer {
+	display: inline-block;
+}
+
+#oldscore {
+	background-color: #9df75e;
+	padding: 5px;
+	margin: 5px;
+}
+
+#newscore {
+	background-color: #96eee1;
+	padding: 5px;
+	margin: 5px;
+}
